@@ -196,6 +196,5 @@ public class LikeHandler implements RequestHandler<APIGatewayProxyRequestEvent, 
 		content.setMedia(contentItem.getString("media"));
 		content.setDescription(contentItem.getJSON("description"));
 		return content;
-		
 	}
 }
