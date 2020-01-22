@@ -31,7 +31,6 @@ import model.User;
 
 
 public class DeleteHandler implements RequestHandler<APIGatewayProxyRequestEvent, APIGatewayProxyResponseEvent> {
-
 	AmazonS3 s3Client = AmazonS3ClientBuilder.standard()
 			.withRegion(clientRegion)
 			.build();
