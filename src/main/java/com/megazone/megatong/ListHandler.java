@@ -412,7 +412,6 @@ public class ListHandler implements RequestHandler<APIGatewayProxyRequestEvent, 
 				}
 			}
 
-
 			listItem.setTotal(totalCnt);
 			listItem.setPerPage(perPage);
 			listItem.setPages(totalPage);
