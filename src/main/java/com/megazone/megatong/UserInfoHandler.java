@@ -13,6 +13,7 @@ import com.amazonaws.services.lambda.runtime.events.APIGatewayProxyResponseEvent
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
+
 public class UserInfoHandler implements RequestHandler<APIGatewayProxyRequestEvent, APIGatewayProxyResponseEvent> {
 	AmazonDynamoDB client = AmazonDynamoDBClientBuilder.standard().build();
 	DynamoDB dynamoDB  = new DynamoDB(client);
